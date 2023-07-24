@@ -1,2 +1,4 @@
 # TPFinal-Electronica-Digital-2
-Trabajo práctico final de la materia Electrónica Digital 2 de la carrera Ingeniería en Computación
+Trabajo práctico final de la materia Electrónica Digital 2 de la carrera Ingeniería en Computación, que consiste en un sistema simulado en protoboard, utilizando un PIC 16f887 como microcontrolador.
+El sistema simula un control de temperatura en 3 habitaciones, en particular se controla la refrigeración mediante aires acondicionados (simulados con leds que encienden o apagan en la protoboard). Se utilizaron sensores de temperatura LM35, distintos leds y resistencias varias, además de uina fuente de 5 Volts y el PIC propiamente dicho, programado en lenguaje ensamblador.
+El sistema envía mendiante comunicación serie asincrónica los valores sensados a una PC, que los convierte y muestra en una gráfica a tiempo real. Todo esto lo realiza un pequeño programa en lenguaje Python en la PC.
